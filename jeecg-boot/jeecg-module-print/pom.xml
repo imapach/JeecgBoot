@@ -18,8 +18,9 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+            <groupId>org.jeecgframework.boot</groupId>
+            <artifactId>jeecg-boot-starter-mongon</artifactId>
+            <version>${jeecgboot.version}</version>
         </dependency>
 
 

@@ -1,3 +1,4 @@
+
 server:
   port: 8080
   tomcat:
@@ -177,6 +178,12 @@ spring:
     host: 127.0.0.1
     port: 6379
     password: ''
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/jeecg?readPreference=secondaryPreferred&maxIdleTimeMS=60000&waitQueueTimeoutMS=2000&minPoolSize=5&maxPoolSize=100&maxLifeTimeMS=0&connectTimeoutMS=2000&socketTimeoutMS=2000
+      print: true
+      slowQuery: true
+      slowTime: 1000
 #mybatis plus 设置
 mybatis-plus:
   mapper-locations: classpath*:org/jeecg/**/xml/*Mapper.xml
